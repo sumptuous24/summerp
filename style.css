@@ -1,0 +1,79 @@
+.body{
+    box-sizing: border-box;
+}
+
+.title{
+    background-color: rgb(71, 125, 206);
+    background-image: linear-gradient(to bottom,rgb(53, 53, 226), rgb(96, 116, 228),rgb(191, 210, 221));
+    font-size:60px;
+    text-align: center;
+    padding: 10px;
+    
+    
+}
+.head{
+    padding: 20px;
+    margin-top: -6px;
+    align-items: center;
+    font-size:20px;
+    text-decoration: none;
+    background-color: rgba(84, 85, 83, 0.123);
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: rgb(54, 7, 7);
+}
+a:hover{
+    cursor:grab;
+    text-decoration: none;
+
+}
+.banner1{
+    background: url(images/b1.jpg) no-repeat;
+    min-height: 600px;
+    padding: 0px 100px;
+    width: 100%;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+     -o-background-size: cover;
+
+}
+.banner2{
+    background: url(images/b2.jpg) no-repeat;
+    min-height: 600px;
+    padding:0px 100px;
+    width: 100%;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+     -o-background-size: cover;
+}
+.banner3{
+    background: url(images/b3.jpg) no-repeat;
+    min-height: 600px;
+    padding:0px 100px;
+    width: 100%;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+     -o-background-size: cover;
+}
+.footer{
+    background-color: rgb(71, 125, 206);
+    background-image: linear-gradient(to top,rgb(53, 53, 226), rgb(96, 116, 228),rgb(191, 210, 221));
+    font-size:15px;
+    text-align: center;
+    padding: 5px;
+}
+
+@media(min-width:768px){
+    .banner1, .banner2, .banner3{
+        
+        margin:auto;
+        text-align: center;
+    }
+}
+
+
