@@ -4189,7 +4189,7 @@ input[type="button"].btn-block {
   -ms-flex-direction: column;
   flex-direction: column;
   padding-left: 0;
-  margin-bottom: 0;
+  margin-bottom: 0px;
   list-style: none;
 }
 
@@ -5085,7 +5085,7 @@ a.badge-dark:focus, a.badge-dark.focus {
 
 .jumbotron {
   padding: 2rem 1rem;
-  margin-bottom: 2rem;
+
   background-color: #e9ecef;
   border-radius: 0.3rem;
 }
@@ -6528,13 +6528,14 @@ button.bg-secondary:focus {
 }
 
 .bg-success {
-  background-color: #28a745 !important;
+  background-color: #d3d4e266 !important;
 }
 
 a.bg-success:hover, a.bg-success:focus,
 button.bg-success:hover,
 button.bg-success:focus {
-  background-color: #1e7e34 !important;
+  background-color: #cddadd7e !important;
+
 }
 
 .bg-info {
