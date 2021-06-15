@@ -13,14 +13,11 @@
 }
 .head{
     padding: 0px 0px 30px 30px;
-    font-size:15px;
+    font-size:20px;
     text-decoration: none;
     color: rgb(13, 16, 66);
 }
-a{
-    text-decoration: none;
-    color: rgb(231, 22, 22);
-}
+
 a:hover{
     cursor:grab;
     text-decoration: none;
@@ -61,7 +58,47 @@ a:hover{
     background-image: linear-gradient(to top,rgb(53, 53, 226), rgb(96, 116, 228),rgb(191, 210, 221));
     font-size:15px;
     text-align: center;
+    bottom: 0px;
     padding: 5px;
+}
+
+.wrapper{
+    max-height: 300px;
+    border: 1px solid white;
+    display: flex;
+    overflow-x:auto;
+}
+
+::-webkit-scrollbar{
+    width: 0px;
+    background: transparent;
+}
+.wrapper .item{
+    min-width:280px;
+    height: 280px;
+    line-height: 280px; 
+    border-radius: 12px;
+    text-align: center;
+    background-color: rgb(171, 236, 185);
+    margin-right: 2px;
+    font-size: 25px;
+}
+.more{
+    background-color: rgb(255, 255, 255) !important;
+    font-size: 35px !important;
+}
+
+.more a:hover{
+    zoom: 120%;
+}
+.categoryhome{
+    font-size: 30px;
+    font-style: italic;
+    color: rgb(196, 20, 14);
+    font-weight: bold;
+    padding-left: 20px;
+    letter-spacing: 1px;
+    word-spacing: 4px;
 }
 
 @media(max-width:768px){
