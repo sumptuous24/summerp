@@ -25,42 +25,56 @@
 
   <title>Lend or Rent</title>
 </head>
-<h1 class="title"><a style="color: rgb(255, 255, 255); text-decoration: none;" href="index.html">Lend or Rent</a></h1>
-
-<!--header-->
+<div>
+  <div><h1 class="title"><a style="color: rgb(255, 255, 255); text-decoration: none;" href="index.html">Lend or Rent</a></h1></div>
+  
+</div>
 
 <!--
-<div class="head">
-<div class="container">
-    <div id="navbar">
-      <div class=" row" >
-        <div class="col-lg-4 col-md-4 ">
-          <div class="row">
-            <div class="col-lg-4 col-md-4 "><a style="text-decoration: none;color: rgb(54, 7, 7);" href="index.html">Home</a></div>
+<nav class="navbar navbar-expand-lg sticky-top " style='background-color:rgba(255, 169, 169, 0.4);'>
+  <div class="container-fluid">
+    <a class="navbar-brand ms-5" href="#">
+      <img  src="#" height="90px" alt="">
+    </a>
+    <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon ">
+
+      </span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">About us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Info</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"> Take a test</a>
+        </li>
+
+      </ul>
+      <ul class="navbar-nav ms-auto me-5">
+        <li>
+          <div class="btn-group ">
+
+            <a href= "#" class = 'btn btn-outline-danger'>Login </a>
+            <a href="#" class = 'btn btn-outline-success'>Signup</a>
          
-          <div class="col-lg-4 col-md-4 "><a style="text-decoration: none;color: rgb(54, 7, 7);" href="#">About us</a></div>
-          <div class="col-lg-4 col-md-4 "><a style="text-decoration: none;color: rgb(54, 7, 7);" href="#">Contact us</a></div>
           </div>
-          </div>
-         <div class="col-lg-4 col-md-4 " style="margin-left: auto;">
-           <div id="search">
-            <form action="#" method="post">
-             <fieldset>
-            <input type="text" value="Search for books…" onfocus="this.value=(this.value=='Search for books…')? '' : this.value ;">
-            <input type="submit" name="go" id="go" value="Search">
-          </fieldset>
-        </form>
-         </div>
-        </div>     
+        </li>
+      </ul>
     </div>
   </div>
-  </div>
-</div>
+</nav>
 -->
 
-<!--header end-->
+
+<!--header-->
 <div style="margin-top: -6px;">      
-<nav style="margin-bottom: 0px !important;" class="navbar navbar-expand-sm bg-success navbar-light" aria-label="First navbar example">
+<nav style="margin-bottom: 0px !important;" class="navbar navbar-expand-md bg-success navbar-light" aria-label="First navbar example">
   <a style="margin-left: auto;" class="navbar-brand" href="#"></a>
   <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample01" 
    aria-expanded="false" aria-label="Toggle navigation">
@@ -69,41 +83,53 @@
   </button>
 
   <div class="collapse navbar-collapse head row" id="navbarsExample01">
-    <div class="col-lg-8 col-md-8">
+   
+    <div class="col-lg-10 col-md-10 col-sm-10 ">
       <div class="navbar-nav me-auto mb-2 row">
+       <div class="col-lg-4 col-md-3 col-sm-3 " style="overflow: hidden;">
+          <div id="search">
+             <form action="#" method="post">
+             <fieldset>
+               <input style="font-size: 10px;" type="text" value="Search for books…" onfocus="this.value=(this.value=='Search for books…')? '' : this.value ;">
+              <input type="submit" name="go" id="go" value="Search">
+             </fieldset>
+            </form>
+          </div>
+      </div> 
           <div class="nav-item ">
-              <a style="text-decoration: none;color: rgb(173, 9, 9);font-weight: bold;" class="col-lg-3 col-md-3 " href="index.html">Home</a>
+              <a style="text-decoration: none;color: rgb(173, 9, 9);font-weight: bold;" class="col-lg-1 col-md-1 col-sm-1 " href="index.html">Home</a>
           </div>
         
           <div class="nav-item">
-              <a style="text-decoration: none;color: rgb(173,9,9);font-weight: bold;" class="col-lg-3 col-md-3 " href="#">About us</a>
+              <a style="text-decoration: none;color: rgb(173,9,9);font-weight: bold;" class="col-lg-1 col-md-1 col-sm-1 " href="#">About us</a>
           </div>
         
           <div class="nav-item">
-              <a style="text-decoration: none;color: rgb(173,9,9);font-weight: bold;" class=" col-lg-3 col-md-3 " href="#">Contact us</a>
+              <a style="text-decoration: none;color: rgb(173,9,9);font-weight: bold;" class=" col-lg-1 col-md-1 col-sm-1" href="#">Contact us</a>
           </div>
 
           <div class="dropdown">
-            <a style="text-decoration: none;color: rgb(173,9,9);font-weight: bold; padding-left: 15px;" href="#" class="dropdown-toggle" data-bs-toggle="dropdown">Categories</a>
+            <a style="text-decoration: none;color: rgb(173,9,9);font-weight: bold; padding-left: 15px;" href="#" class="dropdown-toggle col-lg-1 col-md-1 col-sm-1" data-bs-toggle="dropdown">Categories</a>
             <div class="dropdown-menu">
-                <a style="font-size: 15px;" href="#" class="dropdown-item">Kids</a>
-                <a style="font-size: 15px;" href="#" class="dropdown-item">Academics</a>
-                <a style="font-size: 15px;" href="#" class="dropdown-item">Novels</a>
+                <a style="font-size: 13px;" href="#" class="dropdown-item">Kids</a>
+                <a style="font-size: 13px;" href="#" class="dropdown-item">Academics</a>
+                <a style="font-size: 13px;" href="#" class="dropdown-item">Novels</a>
+                <a style="font-size: 13px;" href="#" class="dropdown-item">Motivational</a>
             </div>
         </div>
-
-
+      </div>
+  </div>
+    
+ <!-- <div style="font-size: 25px;position:absolute; top:0; right:0;"> Login/ signup</div>-->
+  <div style="margin-left: auto; padding-left: 30px;" >
+    <ul class="navbar-nav ms-auto me-5 col-lg-2 col-md-2">
+        <li>
+        <div class="btn-group">
+          <a href= "#" class = 'btn btn-outline-danger col-lg-6 col-md-6'>Login </a>
+          <a href="#" class = 'btn btn-outline-success col-lg-6 col-md-6'>Signup</a>
         </div>
-    </div>
-    <div class="col-lg-4 col-md-4 " style="margin-left: auto;">
-      <div id="search">
-       <form action="#" method="post">
-        <fieldset>
-       <input type="text" value="Search for books…" onfocus="this.value=(this.value=='Search for books…')? '' : this.value ;">
-       <input type="submit" name="go" id="go" value="Search">
-     </fieldset>
-   </form>
-    </div>
+        </li>
+    </ul>
   </div>
 </nav>
 </div>
@@ -179,6 +205,20 @@
 
 <!--Novel sect.-->
 <div class="categoryhome">Novel section</div>
+<div class="wrapper">
+  <div class="item">box-1</div>
+  <div class="item">box-2</div>
+  <div class="item">box-3</div>
+  <div class="item">box-4</div>
+  <div class="item">box-5</div>
+  <div class="item">box-6</div>
+  <div class="item more"><a style="text-decoration: none; color: rgb(204, 3, 3); font-weight: bold;" href="#">See all</a></div>
+</div>
+<br>
+
+
+<!--Self help sect.-->
+<div class="categoryhome">Motivational books section</div>
 <div class="wrapper">
   <div class="item">box-1</div>
   <div class="item">box-2</div>
